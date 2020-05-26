@@ -54,13 +54,13 @@ client.on('message', (message) => {
 
     message.channel.send(embed)
   } else if(message.content == '!help') {
-    let helpImg = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
+    let helpImg = 'https://cdn.discordapp.com/attachments/635055942345687040/687111592323973120/common.jpg';
     let commandList = [
       {name: '!help', desc: '무엇을 도와드릴까요?'},
     ];
     let commandStr = '';
     let embed = new Discord.RichEmbed()
-      .setAuthor('Help of GamChang BOT', helpImg)
+      .setAuthor('KOR SatisFactory BOT', helpImg)
       .setColor('#186de6')
       .setFooter(`담당관리자 : FGStudio#6284`)
       .setTimestamp()
